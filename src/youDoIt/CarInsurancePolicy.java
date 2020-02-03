@@ -15,6 +15,7 @@ public class CarInsurancePolicy {
     }
     public CarInsurancePolicy(int num, int payments)
     {
+
         this(num, payments, "Mayfield");
     }
     public CarInsurancePolicy(int num)
