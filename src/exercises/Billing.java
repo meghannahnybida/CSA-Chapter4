@@ -35,7 +35,7 @@ public class Billing {
         Billing third = new Billing();
         first.computeBill(50);
         second.computeBill(50, 20);
-        third.computeBill(50, 20, 10);
+        third.computeBill(50, 20, .10);
     }
 
 }
