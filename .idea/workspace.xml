@@ -34,7 +34,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoDice.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FixDebugBox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/debugging/FixDebugBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixDebugFour1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/debugging/FixDebugFour1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixDebugFour2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/debugging/FixDebugFour2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoDice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameZone/TwoDice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
@@ -65,6 +92,10 @@
         <option value="$PROJECT_DIR$/src/GameZone/Die.java" />
         <option value="$PROJECT_DIR$/src/exercises/Billing.java" />
         <option value="$PROJECT_DIR$/src/GameZone/TwoDice.java" />
+        <option value="$PROJECT_DIR$/src/Debugging/FixDebugBox.java" />
+        <option value="$PROJECT_DIR$/src/debugging/FixDebugBox.java" />
+        <option value="$PROJECT_DIR$/src/debugging/FixDebugFour1.java" />
+        <option value="$PROJECT_DIR$/src/debugging/FixDebugFour2.java" />
       </list>
     </option>
   </component>
@@ -98,7 +129,7 @@
               <item name="Chapter-Four" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chapter-Four" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GameZone" type="462c0819:PsiDirectoryNode" />
+              <item name="debugging" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoDice">
+  <component name="RunManager" selected="Application.FixDebugFour2">
     <configuration name="Billing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercises.Billing" />
       <module name="Chapter-Four" />
@@ -134,24 +165,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CreatePolicies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="youDoIt.CreatePolicies" />
+    <configuration name="FixDebugFour1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="debugging.FixDebugFour1" />
       <module name="Chapter-Four" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="youDoIt.*" />
+          <option name="PATTERN" value="debugging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DemoBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="youDoIt.DemoBlock" />
+    <configuration name="FixDebugFour2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="debugging.FixDebugFour2" />
       <module name="Chapter-Four" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="youDoIt.*" />
+          <option name="PATTERN" value="debugging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,19 +251,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DemoBlock" />
-      <item itemvalue="Application.CreatePolicies" />
       <item itemvalue="Application.FormLetterWriter" />
       <item itemvalue="Application.Billing" />
       <item itemvalue="Application.TwoDice" />
+      <item itemvalue="Application.FixDebugFour1" />
+      <item itemvalue="Application.FixDebugFour2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FixDebugFour2" />
+        <item itemvalue="Application.FixDebugFour1" />
         <item itemvalue="Application.TwoDice" />
         <item itemvalue="Application.Billing" />
         <item itemvalue="Application.FormLetterWriter" />
-        <item itemvalue="Application.CreatePolicies" />
-        <item itemvalue="Application.DemoBlock" />
       </list>
     </recent_temporary>
   </component>
@@ -255,14 +286,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3298292" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.31800264" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.26412615" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
@@ -377,6 +408,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/debugging/FixDebugBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/debugging/FixDebugFour1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/debugging/FixDebugFour2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
