@@ -27,6 +27,6 @@ public class FixDebugBox
     {
         double vol = length * width * height;
 
+        return vol;
     }
 }
-

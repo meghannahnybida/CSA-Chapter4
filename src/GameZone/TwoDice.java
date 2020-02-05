@@ -12,21 +12,25 @@ public class TwoDice {
 
         if(value1 > value2)
         {
-            System.out.println("Dice #1 rolled: " + value1);
-            System.out.println("Dice #2 rolled: " + value2);
-            System.out.println("Dice #1 wins. ");
+            pl("Dice #1 rolled: " + value1);
+            pl("Dice #2 rolled: " + value2);
+            pl("Dice #1 wins. ");
         }
         else if(value2 > value1)
         {
-            System.out.println("Dice #1 rolled: " + value1);
-            System.out.println("Dice #2 rolled: " + value2);
-            System.out.println("Dice #2 wins. ");
+            pl("Dice #1 rolled: " + value1);
+            pl("Dice #2 rolled: " + value2);
+            pl("Dice #2 wins. ");
         }
         else
         {
-            System.out.println("Dice #1 rolled: " + value1);
-            System.out.println("Dice #2 rolled: " + value2);
-            System.out.println("TIE!");
+            pl("Dice #1 rolled: " + value1);
+            pl("Dice #2 rolled: " + value2);
+            pl("TIE!");
         }
+    }
+    public static void pl(String getString)
+    {
+        System.out.println(getString);
     }
 }
